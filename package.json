@@ -1,0 +1,28 @@
+{
+  "name": "gravitation-planetary-motion-antigravity",
+  "version": "1.0.0",
+  "description": "Class XI Physics Art Integrated Project: Gravitation & Planetary Motion",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "npx tsx tests/physics.test.ts && npx tsx tests/controls-and-scroll.test.ts && npx tsx tests/stage2-art-astronomy.test.ts && npx tsx tests/stage3-newton-gravity.test.ts && npx tsx tests/stage4-gravitational-field.test.ts && npx tsx tests/math-display.test.ts && npx tsx tests/stage5-orbital-motion.test.ts && npx tsx tests/stage6-kepler-laws.test.ts && npx tsx tests/stage7-satellites-escape.test.ts && npx tsx tests/stage8-solar-system.test.ts && npx tsx tests/stage9-challenges.test.ts"
+  },
+  "keywords": [
+    "physics",
+    "class-11",
+    "gravitation",
+    "planetary-motion",
+    "art-integrated",
+    "simulations"
+  ],
+  "author": "Antigravity Project Team",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.0",
+    "vite": "^6.2.0",
+    "vite-plugin-singlefile": "^2.1.0"
+  }
+}
